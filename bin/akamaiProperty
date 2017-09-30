@@ -28,7 +28,7 @@ let WebSite = require('../index').WebSite;
 
 let program = require('commander');
 
-if ((process.versions["node"]).split('.')[0] < 7) {
+if ((process.versions["node"]).split('.')[0] < 6) {
     console.log("The Akamai CLI for Property Manager requires Node 7 or later.")
     process.exit()
 }
